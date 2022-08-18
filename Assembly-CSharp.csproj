@@ -58,11 +58,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\CameraShake.cs" />
      <Compile Include="Assets\Scripts\Controllers\CameraPanAndZoom\CameraPanAndZoomController.cs" />
      <Compile Include="Assets\Scripts\Controllers\CameraSeeThroughObstructions\CameraSeeThroughObstructionsController.cs" />
+     <Compile Include="Assets\Scripts\Controllers\CharacterController\ScriptCharacter.cs" />
      <Compile Include="Assets\Scripts\Controllers\ShowAllTargetsCamera\TrackingTargetsController.cs" />
-     <Compile Include="Assets\Scripts\DraggableObject.cs" />
      <Compile Include="Assets\Scripts\Gun Scene\Assets\Mini First Person Controller\Scripts\Components\Crouch.cs" />
      <Compile Include="Assets\Scripts\Gun Scene\Assets\Mini First Person Controller\Scripts\Components\FirstPersonAudio.cs" />
      <Compile Include="Assets\Scripts\Gun Scene\Assets\Mini First Person Controller\Scripts\Components\GroundCheck.cs" />
@@ -73,9 +72,10 @@
      <Compile Include="Assets\Scripts\Gun Scene\Scripts\GunController.cs" />
      <Compile Include="Assets\Scripts\Gun Scene\Scripts\Recoil.cs" />
      <Compile Include="Assets\Scripts\HealthBar Scene\Scripts\PlayerHealth.cs" />
-     <Compile Include="Assets\Scripts\Script_Character.cs" />
      <Compile Include="Assets\Scripts\Shaders\PixelatedGameTool\PixelatedGameToolShaderHandler.cs" />
+     <Compile Include="Assets\Scripts\Tools\CameraShakeTool\CameraShake.cs" />
      <Compile Include="Assets\Scripts\Tools\CaptureScreenshotTool\CaptureScreenshotTool.cs" />
+     <Compile Include="Assets\Scripts\Tools\DraggableObjectTool\DraggableObject.cs" />
      <Compile Include="Assets\Scripts\Tools\MeshCombinerTool\MeshCombiner.cs" />
      <Compile Include="Assets\Scripts\Tools\ProceduralIslandGenerationTool\ProceduralIslandGenerator.cs" />
      <Compile Include="Assets\Scripts\Tools\ProceduralRecoilSystem\ProceduralRecoilManager.cs" />

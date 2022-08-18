@@ -1,4 +1,6 @@
 ﻿using System.Linq;
+using Gun_Scene.Assets.Mini_First_Person_Controller.Scripts;
+using Gun_Scene.Assets.Mini_First_Person_Controller.Scripts.Components;
 using UnityEngine;
 
 public class FirstPersonAudio : MonoBehaviour

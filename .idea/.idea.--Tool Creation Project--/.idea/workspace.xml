@@ -7,10 +7,26 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/CharacterController/ScriptCharacter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Simoqin/Assets/Scripts/MainMenu/Menu.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Simoqin/Assets/Scripts/Networking/PhotonLauncher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Simoqin/Assets/Scripts/MainMenu/LobbyListItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Simoqin/Assets/Scripts/MainMenu/PlayerListItem.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/Script_Character.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Tools/MeshCombinerTool/MeshCombiner.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/CameraShake.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Gun Scene/Assets/Mini First Person Controller/Scripts/Components/Jump.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Gun Scene/Assets/Mini First Person Controller/Scripts/FirstPersonMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Gun Scene/Assets/Mini First Person Controller/Scripts/Components/Zoom.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/CharacterController/Script_Character.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/CharacterController/ScriptCharacter.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/NewBehaviourScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/NewBehaviourScript1.cs" />
+      <option value="$PROJECT_DIR$/Assets/NewBehaviourScript.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="29CgHxBcacAWUJwqGi5KpbtKx6F" />

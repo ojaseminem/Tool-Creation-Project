@@ -1,34 +1,37 @@
 ﻿using UnityEngine;
 
-public class Jump : MonoBehaviour
+namespace Gun_Scene.Assets.Mini_First_Person_Controller.Scripts.Components
 {
-    Rigidbody rigidbody;
-    public float jumpStrength = 2;
-    public event System.Action Jumped;
-
-    [SerializeField, Tooltip("Prevents jumping when the transform is in mid-air.")]
-    GroundCheck groundCheck;
-
-
-    void Reset()
+    public class Jump : MonoBehaviour
     {
-        // Try to get groundCheck.
-        groundCheck = GetComponentInChildren<GroundCheck>();
-    }
+        private new Rigidbody rigidbody;
+        public float jumpStrength = 2;
+        public event System.Action Jumped;
 
-    void Awake()
-    {
-        // Get rigidbody.
-        rigidbody = GetComponent<Rigidbody>();
-    }
+        [SerializeField, Tooltip("Prevents jumping when the transform is in mid-air.")]
+        private GroundCheck groundCheck;
 
-    void LateUpdate()
-    {
-        // Jump when the Jump button is pressed and we are on the ground.
-        if (Input.GetButtonDown("Jump") && (!groundCheck || groundCheck.isGrounded))
+
+        private void Reset()
         {
-            rigidbody.AddForce(Vector3.up * 100 * jumpStrength);
-            Jumped?.Invoke();
+            // Try to get groundCheck.
+            groundCheck = GetComponentInChildren<GroundCheck>();
+        }
+
+        private void Awake()
+        {
+            // Get rigidbody.
+            rigidbody = GetComponent<Rigidbody>();
+        }
+
+        private void LateUpdate()
+        {
+            // Jump when the Jump button is pressed and we are on the ground.
+            if (Input.GetButtonDown("Jump") && (!groundCheck || groundCheck.isGrounded))
+            {
+                rigidbody.AddForce(Vector3.up * 100 * jumpStrength);
+                Jumped?.Invoke();
+            }
         }
     }
 }
