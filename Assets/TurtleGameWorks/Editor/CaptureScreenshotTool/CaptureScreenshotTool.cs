@@ -13,7 +13,7 @@ using System.IO;
 using UnityEditor;
 using UnityEngine;
 
-namespace Tools.CaptureScreenshotTool
+namespace TurtleGameWorks.Editor.CaptureScreenshotTool
 {
     public static class CaptureScreenshotTool
     {

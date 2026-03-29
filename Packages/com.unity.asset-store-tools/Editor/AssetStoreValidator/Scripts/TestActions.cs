@@ -9,6 +9,7 @@ using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.Experimental.Rendering;
+using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
 using CompilationPipeline = UnityEditor.Compilation.CompilationPipeline;
 using Object = UnityEngine.Object;

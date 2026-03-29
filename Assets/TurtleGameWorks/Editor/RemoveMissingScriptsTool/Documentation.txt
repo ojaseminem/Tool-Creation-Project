@@ -39,6 +39,9 @@ To use the "Remove Missing Scripts Tool" in Unity, follow these steps:
     The tool will display the list of selected prefabs for verification.
     Click the "Remove Missing Scripts" button to initiate the removal process.
     The tool will iterate through the selected prefabs and remove any missing scripts it finds.
+    
+    The button "Remove All Missing Scripts from Scene" will automatically remove all missing scripts from the currently open scene/s.
+    It will not be dependent on any prefabs added in the tool window.
     Warnings and success messages will be logged in the Unity console.
 
 Support:

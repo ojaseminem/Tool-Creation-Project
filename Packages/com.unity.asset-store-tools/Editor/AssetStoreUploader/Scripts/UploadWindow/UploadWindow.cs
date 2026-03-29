@@ -8,6 +8,7 @@ namespace AssetStoreTools.Uploader
 {
     internal class UploadWindow : VisualElement
     {
+        [Obsolete("Obsolete")]
         public new class UxmlFactory : UxmlFactory<UploadWindow> { }
 
         // Views

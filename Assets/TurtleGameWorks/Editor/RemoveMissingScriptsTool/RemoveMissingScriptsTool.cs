@@ -12,7 +12,7 @@ using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
-namespace TurtleGameWorks.Editor.Tools
+namespace TurtleGameWorks.Editor.RemoveMissingScriptsTool
 {
     public class RemoveMissingScriptsTool : EditorWindow
     {
@@ -131,7 +131,7 @@ namespace TurtleGameWorks.Editor.Tools
         
         private void RemoveAllMissingScriptsFromScene()
         {
-            var gameObjects = FindObjectsOfType<GameObject>();
+            var gameObjects = FindObjectsByType<GameObject>(FindObjectsSortMode.None);
 
             foreach (var gameObject in gameObjects)
             {

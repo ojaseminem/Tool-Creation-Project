@@ -40,7 +40,7 @@ namespace Gun_Scene.Assets.Mini_First_Person_Controller.Scripts
             Vector2 targetVelocity =new Vector2( Input.GetAxis("Horizontal") * targetMovingSpeed, Input.GetAxis("Vertical") * targetMovingSpeed);
 
             // Apply movement.
-            m_Rigidbody.velocity = transform.rotation * new Vector3(targetVelocity.x, m_Rigidbody.velocity.y, targetVelocity.y);
+            m_Rigidbody.linearVelocity = transform.rotation * new Vector3(targetVelocity.x, m_Rigidbody.linearVelocity.y, targetVelocity.y);
         }
     }
 }

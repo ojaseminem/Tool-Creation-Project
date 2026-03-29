@@ -25,6 +25,7 @@ namespace AssetStoreTools.Uploader
         private double _cloudLoginRefreshTime = 1d;
         private double _lastRefreshTime;
 
+        [Obsolete("Obsolete")]
         public new class UxmlFactory : UxmlFactory<LoginWindow> { }
 
         public LoginWindow()
