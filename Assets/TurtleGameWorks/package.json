@@ -1,0 +1,23 @@
+﻿{
+  "name": "com.turtlegameworks.autotools",
+  "version": "1.0.0",
+  "displayName": "AutoTools Hub",
+  "description": "TurtleGameWorks editor tools collection with a unified hub window. Includes Scene Manager, Screenshot Capture, Create Folders, Remove Missing Scripts, and more.",
+  "unity": "2021.3",
+  "unityRelease": "0f1",
+  "author": {
+    "name": "TurtleGameWorks",
+    "url": "https://github.com/YOUR_GITHUB_USERNAME/AutoTools"
+  },
+  "keywords": [
+    "editor",
+    "tools",
+    "utilities",
+    "autotools",
+    "turtlegameworks"
+  ],
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.1"
+  },
+  "type": "tool"
+}
